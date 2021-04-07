@@ -1,14 +1,14 @@
-import Navbar from "../../.next/Navbar";
+import Link from "next/link";
+import Navbar from "../../Components/Navbar";
 
 const Loginmain = () => {
-    return ( 
-        <>
-        <h1 style={{padding: "12px" , textAlign: "center"}}>
-            Login main page
-        </h1>
-        <Navbar></Navbar>
-        </>
-     );
-}
- 
+  return (
+    <div className="content-container">
+      <h1 style={{ padding: "12px", textAlign: "center" }}>Login main page</h1>
+      <Navbar></Navbar>
+     
+    </div>
+  );
+};
+
 export default Loginmain;
